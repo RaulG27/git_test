@@ -1,14 +1,16 @@
-//Personal repository for The Odin Project
-*WORK IN PROGRESS*
-I will be updating this as I continue with the course curriculum
+<h1>Personal repository for The Odin Project</h1>
+<h3>*WORK IN PROGRESS*</h3>
+<p>i will be updating this as I continue with the course curriculum</p>
 
-Everything I've completed so far
+<b>Everything I've completed so far</b>
 
-Foundations:
-Git section
-HTML section
-CSS section
-Flexbox* (Currently working on this)
+<h3>Foundations:</h3>
+<ul>
+<li>Git section</li>
+<li>HTML section</li>
+<li>CSS section</li>
+<li>Flexbox* (Currently working on this)</li>
+</ul>
 
-Fullstack Javascript path:
+<h3>Fullstack Javascript path:</h3>
 
