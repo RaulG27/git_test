@@ -2,6 +2,7 @@
 <p></p>
 <p><em>Everything I learned during this section + from the internet:</em></p>
 <ul>
+<li><b>How an HTML file is structured</b></li>
   <li>How headings work</li>
   <li>How to change background color</li>
   <li>How to add images using img src</li>
