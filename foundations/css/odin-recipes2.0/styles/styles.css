@@ -1,0 +1,9 @@
+body {
+    background-color :red;
+}
+
+.pizzalist {
+    margin: 20px;
+    color : lightgreen;
+    padding : 15px;
+}
