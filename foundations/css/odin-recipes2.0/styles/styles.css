@@ -1,9 +1,246 @@
+/*index.html*/
 body {
-    background-color :red;
+    background-color :rgb(51, 45, 45);
 }
 
 .pizzalist {
-    margin: 20px;
-    color : lightgreen;
-    padding : 15px;
+    border: 20px;
+    margin: 33px;
+    color: rgb(60, 207, 55);
+    display: flex;
+justify-content: center;
+
+}
+
+.homeimage {
+display: flex;
+justify-content: center;
+
+}
+
+.hometitle{
+    color: white;
+    display: flex;
+justify-content: center;
+
+}
+
+
+
+
+
+
+/*nypizza.html*/
+.subdir-title1{
+color: white;
+display:flex;
+justify-content: center;
+}
+
+.subdir-img1{
+    display: flex;
+    justify-content: center;
+}
+
+.descriptiontitle1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.description1{
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 1px;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
+
+.ingredienttitle1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients1{
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 640px;
+    padding-right: 10px;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
+
+.steptitle1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.steps1{
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 465px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box; 
+    color: white;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*chickenbbq.html*/
+.subdir-title2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.subdir-img2 {
+    display: flex;
+    justify-content: center;
+}
+
+.descriptiontitle2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.description2 {
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 1px;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
+
+.ingredienttitle2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients2 {
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 530px;
+    padding-right: 10px;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
+
+.steptitle2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.steps2 {
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 465px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*margheritapizza.html*/
+
+.subdir-title3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.subdir-img3 {
+    display: flex;
+    justify-content: center;
+}
+
+.descriptiontitle3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.description3 {
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 1px;
+    color: white;
+    display: inline-block;
+  
+}
+
+.ingredienttitle3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients3 {
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 580px;
+    padding-right: 10px;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
+
+.steptitle3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.steps3 {
+    border-width: 5px 5px 5px 4px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 465px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    align-items: center;
 }
