@@ -1,0 +1,274 @@
+/*main flexbox container*/
+.flex-container{
+    display:flex;
+    flex-direction: column;
+}
+
+
+/*Top Div */
+.top {
+    
+    top: 0px;
+    height: 400px;
+    background: #1F2937;
+}
+
+.top h5{
+    position:relative;
+    left:15%;
+    display: flex;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Verdana", sans-serif;
+    top: 4%;
+    max-width: 15%;
+}
+
+.topbar{
+    left: 61.5%;
+    bottom: 8%;
+   position:relative;
+    justify-content: space-between;
+    display: inline-block;
+    flex-direction: row;
+    color: #E5E7EB; 
+    width: 23%;
+}
+
+#topbar{
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    top:50%;
+}
+
+li{
+    list-style: none;
+    margin: 20px;
+}
+
+#heading-first{
+    flex-direction: column;
+    position:relative;
+    color: white;
+    left:15%;
+    top:7%;
+    font-size:230%;
+    width: 347px;
+}
+
+#heading-second{
+    flex-direction: column;
+    display:flex;
+    color:white;
+    position:relative;
+    left: 15%;
+    top: 8%;
+    width: 330px;
+    white-space: nowrap;
+ 
+}
+
+#signup{
+    color:white;
+    position: relative;
+    padding: 11px;
+    background-color: #3882f6;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    left: 15%;
+    top: 15%;
+}
+
+#topimg{
+    
+    position: relative;
+    bottom: 45%;
+    left: 55%;
+    width:25%;
+
+}
+
+/*middle div*/
+.mid {
+ 
+    background: white;
+    height:425px;
+    width:100%;
+}
+
+#midheading{
+    position:relative;
+    width: 600px;
+    font-size:36px;
+    color: #1F2937;
+    height: 40px;
+    left: 35%;
+    top:5%;
+
+}
+
+#midbranches{
+    top:2%;
+    width: 760px;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    right:17%;
+    
+}
+#midbranches img{
+    
+    object-fit: cover;
+    width:150px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#imginfo{
+    
+    position:relative;
+    width: 700px;
+    display:flex;
+    top:47%;
+    left:31%; 
+    flex-direction:row;
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#imginfo p{
+    font-size:21px;
+    justify-content: space-around;
+    width: 200%;
+    color: #32373f;
+    font-family: "Verdana",sans-serif;
+    padding:8%;
+}
+
+
+
+
+/*lowermid div*/
+
+.lowermid{
+    height: 300px;
+    background: #E5E7EB;
+   
+}
+
+#quote{
+    margin-top: 3%;
+    margin-left: 35%;
+    font-style:italic;
+    font-weight: lighter;
+    font-size: 36px;
+    width:30%;
+    display:flex;
+    color: #1F2937;
+}
+
+#author{
+    width:240px;
+    position:relative;
+    left:58%;
+    color:#1F2937;
+    font-size: 22px;
+    
+}
+
+
+
+/*bottom div*/
+.bottom{
+    height: 275px;
+    width: auto;
+    background: white;
+
+}
+
+#signup2{
+  
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    left:30%;
+    background-color: #3882F6;
+    top: 25%;
+    height: 130px;
+    width:40%;
+    border-radius: 8px;
+
+}
+
+#signuptext{
+    position:relative;
+    width: 55%;
+    left:10%;
+    bottom: 2%;
+}
+#signup2button {
+   
+    width: 13%;
+    padding: 3%;
+    border-radius: 8px;
+    border: 1px solid white;
+    position: relative;
+    left: 75%;
+    background-color: #3882F6;
+    bottom:45px;
+    height: 45px;
+}
+
+#sample1 {
+    position:relative;
+    width: 60%;
+    font-size:23px;
+    color: white;
+    display: flex;
+    top: 20px; 
+}
+
+#sample2 {
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    color: #E5E7EB;
+    width: 100%;
+    top: 25px; 
+    white-space: wrap;
+}
+#sample3{
+    
+    position:relative;
+    bottom:10px;
+   white-space:nowrap;
+    color:white;
+}
+
+
+
+
+/*footer div*/
+.footer{
+    height: 45px;
+    width: auto;
+    background: #1F2937;
+
+    
+}
+
+.footer p{
+    white-space:nowrap;
+    position:relative;
+    color:white;
+    width:15%;
+    left:40%;
+    top:30%;
+}
+
