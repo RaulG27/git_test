@@ -8,8 +8,8 @@
 <ul>
 <li>Git section</li>
 <li>HTML section</li>
-<li>CSS section</li>
-<li>Flexbox* (Currently working on this)</li>
+<li>CSS/Flexbox section</li>
+<li>Javascript section* <em><b>(Currently working on this)</b></em></li>
 </ul>
 
 <h3>Fullstack Javascript path:</h3>
