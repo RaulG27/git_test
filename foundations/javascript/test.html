@@ -1,0 +1,38 @@
+
+<!-- HTML/JS syntax tests --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Document</title>
+</head>
+<body>
+    <!-- seeing how variables storing and displaying works --> 
+    <script>
+        
+        let admin , name;
+
+        name = "John";
+        admin = name;
+
+        alert(admin);
+        console.log(admin);
+    </script>
+
+    <script>
+        let planet = "Earth";
+        let currentUserName = "Frank";
+        console.log(planet);
+        console.log(currentUserName);
+    </script>
+
+<!-- This one should give an error in the dev console since i'm declaring a variable twice, if i deleted the second const then it would print out "01.27.2001". -->
+    <script>
+        const BIRTHDAY = "01.27.2001";
+        const BIRTHDAY = "02.28.2003";
+        console.log(BIRTHDAY);
+    </script>
+</body>
+</html>
