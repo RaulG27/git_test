@@ -1,5 +1,5 @@
 
-<!-- HTML/JS syntax tests --> 
+<!-- Internal HTML/JS syntax tests --> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +28,8 @@
         console.log(currentUserName);
     </script>
 
-<!-- This one should give an error in the dev console since i'm declaring a variable twice, if i deleted the second const then it would print out "01.27.2001". -->
+<!-- This one should give an error in the dev console (line 34) since i'm declaring the same variable twice,
+     if i deleted the second const then it would print out "01.27.2001" without an error. -->
     <script>
         const BIRTHDAY = "01.27.2001";
         const BIRTHDAY = "02.28.2003";
