@@ -1,4 +1,4 @@
-//The Odin Project, JS Fundamentals
+//The Odin Project: JS Fundamentals
 //External Javascript exercises + random tasks to learn syntax
 
 //add 2 numbers together
