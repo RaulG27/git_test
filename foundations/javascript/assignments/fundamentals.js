@@ -45,7 +45,7 @@ console.log(typeof str)
 let num = 2001;
 console.log(typeof num)
 //Bigint
-let bint = 0o0127200101272001;
+let bint = BigInt("0o0127200101272001");
 console.log(typeof bint)
 //Boolean
 let bool = false
