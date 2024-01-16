@@ -8,7 +8,7 @@ console.log(23+97)
 //add a sequence of 6 different numbers together
 console.log(2+5+12+56+44+1)
 
-//Print the solution to the following equation: (4 + 6 +9)/ 77
+//Print the solution to the following equation: (4 + 6 + 9)/ 77
 //Answer should be approx 0.24675
 console.log((4+6+9)/77)
 
