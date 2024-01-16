@@ -1,4 +1,3 @@
-
 //The Odin Project, JS Fundamentals
 //External Javascript exercises + random tasks to learn syntax
 
@@ -38,30 +37,34 @@ let percentage = actual / MAX
 
 //getting used to all 8 Javascript data types and typeof operator
 
-let(str) = "Lorem ipsum dolor sit amet" 
-typeof str
 
-let(num) = 2001;
-typeof num
+//Strings
+let str = "Lorem ipsum dolor sit amet" 
+console.log(typeof str)
+//Numbers
+let num = 2001;
+console.log(typeof num)
+//Bigint
+let bint = 0o0127200101272001;
+console.log(typeof bint)
+//Boolean
+let bool = false
+let bool2 = true
+console.log(typeof bool)
+console.log(typeof bool2)
+//Undefined
+console.log(typeof undef)
+//Null but returns Object
+let nll = null
+console.log(typeof nll) //(super redundant lol)
 
-let(bint) = 0o0127200101272001;
-typeof bint
+//Engine returns Symbol, WRX returns Object
+let Engine = Symbol("Engine")
+let WRX ={ [Engine]: "2.5L EJ257 H4-T" }
+console.log(typeof WRX)
+console.log(typeof Engine)
 
-let(bool) = false
-let(bool2) = true
-typeof bool
-typeof bool2
-
-undefined(undef)
-typeof undef
-
-null(null)
-typeof null //(super redundant lol)
-
-let WRX = {}
-WRX[Engine] = "2.5L EJ257 H4-T"
-typeof WRX
-
+//Object
 let Human = {
     head:{
         eyes: "Brown", mouth: "Smile" , nose: "Big"
@@ -79,3 +82,4 @@ let Human = {
         left: true, right: true
     }
 }
+console.log(Human)
