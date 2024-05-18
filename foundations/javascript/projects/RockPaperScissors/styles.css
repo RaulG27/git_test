@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Page wrapper */
+.page-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Welcome message */
+.rps-welcome {
+margin-bottom: 80rem;
+}
+
+.rps-welcome h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Button container */
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -70rem;
+    
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+#button-container button {
+    font-size: 72px;
+    padding: 15px 30px;
+    border: 2px solid #343a40;
+    border-radius: 8px;
+    background-color: #dee2e6; /* Medium gray background */
+    color: #495057; /* Dark gray text color */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#button-container button:hover {
+    background-color: #343a40; /* Dark gray background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* Result text */
+#result-text {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    color: #495057; /* Dark gray text color */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+#refresh{
+    text-align: center;
+    
+}
