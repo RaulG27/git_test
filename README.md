@@ -9,8 +9,11 @@
 <li>Git section</li>
 <li>HTML section</li>
 <li>CSS/Flexbox section</li>
-<li>Javascript section* <em><b>(Currently working on this)</b></em></li>
+<li>Javascript section</li>
 </ul>
 
 <h3>Fullstack Javascript path:</h3>
 
+<ul>
+<li>Intermediate HTML and CSS</li>
+</ul>
