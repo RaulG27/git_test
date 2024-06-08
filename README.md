@@ -15,5 +15,5 @@
 <h3>Fullstack Javascript path:</h3>
 
 <ul>
-<li>Intermediate HTML and CSS</li>
+<li>Intermediate HTML and CSS<em><b> (currently working on this*)</b></em></li>
 </ul>
